@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+.top_menu{
+    background-color: #151515;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    height: 50px;
+    position: fixed;
+    width: 1170px;
+}
+.top_menu li {
+/*    margin: 50px;*/
+    list-style-type: none;
+}
+.top_menu li a{
+    text-decoration: none;
+    color: #888888;
+    font-style: 24px;
+}
+.top_menu img{
+    width: 25px;
+}
+header{
+    background-image: url(img/images/header_bg.jpg);
+    background-position: center center;
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    color: white;
+}
+header img{
+    width: 150px;
+}
+header h1{
+    font-weight: normal;
+}
+.service{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+.service img{
+    width: 90px ;
+}
+.icon{
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+}
+.service h2{
+    margin: 10px;
+}
+.about{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+}
+.about h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.aboutflex{
+    display: flex;
+}
+.aboutflex div{
+    margin: 20PX 30px;
+}
+.wave{
+    background-image: url(img/images/divider1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 110px;
+}
+.wave h2{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.wave p{
+    color: white;
+    font-size: 23px;
+}
+.brand{
+    width: 60%;
+    margin: auto;
+    color: #505050;
+    padding-bottom: 30px;
+}
+.brand img{
+    width: 600px;
+    margin-left: 50px;
+}
+.brand h2{
+    text-align: center;
+    margin: 40px;
+    font-weight: normal;
+}
+.brand p{
+    margin: 30px;
+}
+.interaction{
+    background-image: url(img/images/divider2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 290px;
+    text-align: center;
+    color: white;
+}
+.interaction h2{
+    padding: 100px 0 10px 0;
+    font-weight: normal;
+    font-size: 30px;
+}
+.interaction p{
+    font-size: 23px;
+    font-weight: normal;
+    margin: 0 100px;
+}
+.team{
+    width: 90%;
+    margin: auto;
+    height: 570px
+}
+.team h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.teammatesflex{
+    display: flex;
+    justify-content: space-around
+}
+.teammates{
+    text-align: center;
+    width: 230px;
+}
+.teamicons img{
+    width: 20px;
+    margin: 5px 0 10px 0;
+}
+.radius{
+     border: 3px solid #ffffff;
+    border-radius: 100px;
+}
+.teammates p{
+    color: #363636;
+    line-height: 25px
+}
+.teammates h3{
+    margin: 20px 0 15px 0;
+}
+.team h2{
+    font-weight: normal;
+    font-size: 32px;
+}
+.hiring{
+    background-color: #e2e2e2;
+    padding: 40px;
+    height: 440px;
+    display: flex
+}
+.hiretext{
+    text-align: center;
+    width: 300px;
+    margin-left:100px;
+}
+.hiretext h2{
+    font-weight: normal;
+    margin: 30px 0 20px 0;
+}
+.hiretext p{
+    line-height: 30px;
+}
+.contactus{
+    background-color: #36bc3b;
+    width: 150px;
+    margin: 30px 0 0 80px;
+    padding: 8px 20px;
+    border: 3px solid #36bc3b;
+    border-radius: 13px
+}
+.contactus a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.designsolve{
+    background-image: url(img/images/divider3.jpg);
+    height: 300px;
+     background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.designsolve h2{
+    padding-top: 100px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.designsolve p{
+    font-weight: normal;
+    color: white;
+    font-size: 20px
+}
+.coolstuff{
+    width: 90%;
+    margin: auto;
+    padding-left: 30px;
+    height: 600px;
+}
+.coolstuff portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.coolstuff h2{
+    text-align: center;
+    margin: 40px 40px 30px 0; 
+}
+.coolstuff img{
+    width: 330px;
+    padding: 10px;
+}
+.emotional{
+    background-image: url(img/images/divider4.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.emotional h2{
+    padding-top: 130px;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+.emotional p{
+    color: white;
+    font-weight: normal;
+    font-size: 23px;
+    margin: 15px 100px;
+}
+.storytellers{
+    height: 500px;
+    margin: auto;
+    width: 90%;
+}
+.storytellers h2{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.blocks{
+    display: flex;
+}
+.person{
+    height: 420px;
+    background-color: #404040;
+    color: #b5b5b5;
+    width: 700px;
+    text-align: center;
+    padding-top: 20px;
+}
+.person p{
+    margin: 10px 0;
+}
+.larger{
+    font-size: 20px
+}
+.right{
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+.right h3{
+    font-size: 28px;
+    font-weight: normal;
+/*    margin-bottom: 20px*/
+}
+.right p{
+    margin: 20px 0;
+}
+.right img{
+    width: 20px;
+}
+.right a{
+    text-decoration: none;
+    color: #505050;
+}
+.person img{
+    width: 70px;
+    border: 1px solid #404040;
+    border-radius: 100px;
+}
+.ny{
+    margin-top: 60px;
+    background-image: url(img/images/divider6.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.ny h2{
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+    padding-top: 100px;
+}
+.ny p{
+    color:white;
+    margin-top: 20px;
+    font-size: 20px
+}
+.ny img{
+    padding-top: 20px;
+    width: 30px;
+}
+.thanks{
+    text-align: center;
+    font-size: 28px;
+    padding: 37px 0 0 0;
+}
+footer{
+    margin: 40px 0 10px 0;
+    background-color: #404040;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    color: #a2a2a2;
+    font-size: 17px;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color:  #f7e1ff;
+}
+
+
+
+
+
